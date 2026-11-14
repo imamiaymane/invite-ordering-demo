@@ -1,0 +1,10 @@
+node_modules/
+lib/
+lib-commonjs/
+temp/
+dist/
+release/
+.heft/
+sharepoint/solution/
+src/services/adapter/
+*.log

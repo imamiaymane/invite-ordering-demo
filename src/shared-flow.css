@@ -1,0 +1,484 @@
+/* Shared workflow: compact navigation, readable text, clear primary actions. */
+.retention-note {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px 20px;
+  font-size: 14px;
+  background: #fff7f8;
+}
+.retention-note button {
+  margin-left: auto;
+}
+.audit-snapshot {
+  margin: 10px 0;
+  border: 1px solid #dedfe5;
+  padding: 12px;
+  border-radius: 7px;
+  font-size: 13px;
+  color: #526075;
+}
+.audit-snapshot summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.audit-snapshot p {
+  font-size: 13px;
+}
+.ordered-table table {
+  min-width: 1130px;
+}
+.ordered-table th,
+.ordered-table td {
+  padding: 14px 10px;
+}
+.ordered-table .table-item {
+  min-width: 170px;
+}
+.ordered-table .table-item strong + strong {
+  margin-top: 12px;
+}
+.ordered-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 185px;
+}
+.ordered-actions button {
+  white-space: normal;
+  font-size: 13px;
+  line-height: 1.4;
+  min-height: 36px;
+  padding: 7px 10px;
+}
+.table-scroll tbody tr {
+  cursor: pointer;
+}
+.table-scroll tbody tr:hover {
+  background: #f8edf1;
+}
+.table-scroll .row-open {
+  border: 1px solid #dec1cb;
+  color: #8a2840;
+  background: #fff;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.sidebar > .workspace {
+  border-top: 0;
+  padding-top: 0;
+}
+:root {
+  font-size: 16px;
+  color: #273449;
+}
+main {
+  max-width: 1900px;
+  padding: 30px 30px 22px;
+}
+.title-line p {
+  max-width: 760px;
+  font-size: 16px;
+}
+.brand-sub {
+  font-size: 10px;
+}
+.workspace strong {
+  font-size: 14px;
+}
+.workspace small {
+  font-size: 12px;
+}
+.nav-label {
+  font-size: 11px;
+}
+.exception-label {
+  margin-top: 28px;
+}
+.identity-description {
+  max-width: 240px;
+  font-size: 13px;
+  color: #566173;
+  line-height: 1.5;
+}
+.identity-description strong {
+  display: block;
+  color: #39495f;
+  font-size: 14px;
+}
+.identity-description span {
+  display: block;
+  margin-top: 3px;
+}
+.rolebar {
+  margin: 25px 0;
+}
+.role-description {
+  min-width: 230px;
+}
+.identity-selector {
+  min-width: 210px;
+}
+.identity-selector select {
+  min-height: 43px;
+  font-size: 15px;
+}
+.workflow-guide {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 5px 0 17px;
+  color: #566173;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.workflow-guide svg {
+  color: #8b95a2;
+}
+.simple-metrics {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 22px;
+}
+.simple-metrics .metric {
+  padding: 17px 16px;
+  background: #fff;
+}
+.simple-metrics .metric-desc {
+  font-size: 14px;
+  min-height: 44px;
+}
+.simple-metrics .metric-top {
+  font-size: 16px;
+  font-weight: 600;
+}
+.simple-metrics .metric-count {
+  font-size: 34px;
+}
+.simple-metrics .metric.amber {
+  border-top: 3px solid #bd903c;
+}
+.simple-metrics .metric.green {
+  border-top: 3px solid #4e886c;
+}
+.simple-metrics .metric.blue {
+  border-top: 3px solid #4d7fa7;
+}
+.simple-metrics .metric.purple {
+  border-top: 3px solid #8963a6;
+}
+.review-banner {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 15px 18px;
+  border: 1px solid #dec2cb;
+  border-radius: 8px;
+  background: #fcf4f6;
+  margin-bottom: 20px;
+  color: #6f3546;
+  font-size: 14px;
+}
+.review-banner > svg {
+  flex-shrink: 0;
+}
+.review-banner button {
+  margin-left: auto;
+  background: white;
+  font-size: 14px;
+}
+.panel-heading select {
+  font-size: 14px;
+  min-height: 42px;
+}
+.table-scroll table {
+  min-width: 900px;
+  white-space: normal;
+}
+.table-item {
+  min-width: 180px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.cell-note {
+  display: block;
+  color: #5d687a;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.quantities {
+  min-width: 140px;
+}
+.quantities small {
+  font-size: 13px;
+}
+.row-open {
+  border: 0;
+  background: transparent;
+  padding: 8px;
+  min-width: 36px;
+  color: #697689;
+}
+.next-action {
+  margin: 20px 0;
+  padding: 18px;
+  background: #faf7f8;
+  border: 1px solid #ece2e5;
+  border-radius: 8px;
+}
+.next-action > p {
+  font-size: 14px;
+  color: #596577;
+  margin: 0 0 14px;
+}
+.next-action .actions:empty {
+  display: none;
+}
+.actions button {
+  white-space: normal;
+  text-align: left;
+  line-height: 1.4;
+}
+.detail {
+  width: 750px;
+}
+.detail-people {
+  margin-top: 18px;
+}
+.detail-people small {
+  font-size: 13px;
+}
+.quantity-strip {
+  padding-top: 20px;
+}
+.quantity-strip small {
+  font-size: 13px;
+}
+.quantity-strip > div:nth-child(3) strong {
+  color: #795095;
+}
+.quantity-strip > div:nth-child(4) strong {
+  color: #427359;
+}
+.shelf-line {
+  line-height: 1.7;
+  flex-wrap: wrap;
+}
+.timeline strong {
+  font-size: 15px;
+}
+.timeline small {
+  font-size: 13px;
+}
+.movement-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 20px;
+  background: #f5f7f9;
+  border: 1px solid #e0e5eb;
+  border-radius: 8px;
+  margin: 14px 0 22px;
+}
+.movement-summary strong {
+  font-size: 25px;
+  color: #35445a;
+}
+.movement-summary span {
+  font-size: 14px;
+  color: #596577;
+}
+.handover-note {
+  background: #edf7f1;
+  border: 1px solid #c2dccd;
+  padding: 16px;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #365e46;
+}
+.modal .form-footer {
+  gap: 10px;
+}
+.modal label {
+  line-height: 1.6;
+}
+.modal button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.checkbox {
+  margin-top: 17px;
+}
+.form-item {
+  margin-top: 17px;
+}
+.modal .form-grid .form-item {
+  margin-top: 0;
+}
+.parcel-card h3 {
+  font-size: 17px;
+}
+.parcel-card p,
+.parcel-card > button {
+  font-size: 15px;
+}
+.parcel-card > small {
+  font-size: 13px;
+}
+.empty {
+  font-size: 15px;
+  color: #647084;
+}
+.main-footer {
+  font-size: 12px;
+}
+@media (min-width: 1650px) {
+  .simple-metrics {
+    gap: 18px;
+  }
+  .simple-metrics .metric {
+    padding: 22px;
+  }
+  .table-item {
+    min-width: 250px;
+  }
+  .table-scroll td {
+    padding: 20px;
+  }
+}
+@media (max-width: 1250px) {
+  .simple-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .identity-description {
+    max-width: none;
+  }
+  .rolebar {
+    gap: 14px;
+  }
+  .role-description {
+    min-width: 200px;
+  }
+  .identity-selector {
+    flex: 1;
+  }
+  .simple-metrics .metric-desc {
+    min-height: 42px;
+  }
+}
+@media (max-width: 900px) {
+  .exception-label {
+    display: none;
+  }
+  .role-description {
+    flex-basis: 100%;
+  }
+  .identity-description {
+    flex: 1;
+    min-width: 180px;
+  }
+  .review-banner {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    padding: 25px 16px;
+  }
+  .title-line {
+    gap: 15px;
+  }
+  .title-line p {
+    font-size: 15px;
+  }
+  .topbar {
+    gap: 10px;
+  }
+  .breadcrumb {
+    font-size: 12px;
+  }
+  .topbar .preview-tag {
+    font-size: 9px;
+    white-space: nowrap;
+  }
+  .role-description {
+    min-width: 0;
+  }
+  .identity-description {
+    margin-top: 13px;
+    font-size: 13px;
+  }
+  .identity-selector {
+    margin-top: 14px;
+  }
+  .simple-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .simple-metrics .metric {
+    padding: 14px;
+  }
+  .simple-metrics .metric-top {
+    font-size: 15px;
+  }
+  .simple-metrics .metric-desc {
+    font-size: 14px;
+    min-height: 63px;
+  }
+  .simple-metrics .metric:last-child {
+    grid-column: 1/-1;
+  }
+  .simple-metrics .metric:last-child .metric-desc {
+    min-height: 0;
+  }
+  .workflow-guide {
+    font-size: 12px;
+    gap: 6px;
+  }
+  .workflow-guide svg {
+    width: 11px;
+  }
+  .role-description strong {
+    font-size: 14px;
+  }
+  .review-banner button {
+    margin-left: 0;
+  }
+  .panel-heading > select {
+    width: 100%;
+  }
+  .detail {
+    padding: 20px;
+  }
+  .detail-top {
+    letter-spacing: 0;
+  }
+  .next-action {
+    padding: 14px;
+  }
+  .next-action .actions button {
+    width: 100%;
+    justify-content: center;
+  }
+  .detail-people {
+    grid-template-columns: 1fr 1fr;
+  }
+  .movement-summary {
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+  .main-footer > span {
+    width: 100%;
+  }
+  .modal .form-footer button {
+    font-size: 14px;
+  }
+  .nav-label {
+    display: none;
+  }
+  .parcel-grid {
+    padding: 0 15px 18px;
+  }
+}

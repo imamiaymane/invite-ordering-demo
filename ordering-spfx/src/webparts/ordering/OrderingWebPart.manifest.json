@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "69b20d60-3ed2-46e8-b862-99e3e34243f4",
+  "alias": "InviteOrderingWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "1edbd9a8-0bfb-4aa2-9afd-14b8c45dd489",
+      "group": { "default": "INVITE" },
+      "title": { "default": "INVITE Ordering — DEV test" },
+      "description": {
+        "default": "Ordering workspace with controlled DEV request-creation testing."
+      },
+      "officeFabricIconFontName": "ShoppingCart",
+      "properties": {}
+    }
+  ]
+}

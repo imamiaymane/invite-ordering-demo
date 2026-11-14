@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "invite-ordering-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ordering/OrderingWebPart.js",
+          "manifest": "./src/webparts/ordering/OrderingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {}
+}
